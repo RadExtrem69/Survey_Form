@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">
+      Feedback on the Indian Education system
+    </h1>
+    <p id="description">
+      <i>The Indian Education system is one of the worst rated educational systems of all time. But, how does it feel as a graduate/ student to view at the system? Please let us know.</i>
+    </p>
+    <form id="survey-form">
+      <label id="name-label">What be your name? <input id="name" required type="text" placeholder="e.g. John Doe"></label>
+      <label id="email-label">Enter your E-mail: <input id="email" required type="email" placeholder="e.g. yourname@email.com"></label>
+      <label id="number-label">Enter your Phone: <input id="number" required type="number" min="1000000000" max="9999999999" placeholder="e.g. 8848800828"></label>
+      <label>What your degree be? 
+        <select id="dropdown">
+          <option>Select One</option>
+          <option value="1">Diploma</option>
+          <option value="2">Undergraduate</option>
+          <option value="3">Postgraduate</option>
+        </select>
+      </label>
+      <label>Do you like the educational system?<br>
+        <input type="radio" name="edu" class = "nl" value="1">Yes, absolutely.<br>
+        <input type="radio" name="edu" class = "nl" value="2">No, not at all.<br>
+      </label>
+      <label>Are you/would you stay in India after graduation<br><input type="checkbox" value="stay" class = "nl">Yes<br><input type="checkbox" value="leave" class="nl">No</label><br>
+      <label>Do you expect the Indian education system to change?<br><input type="checkbox" value="yes" class="nl">Yes<br><input type="checkbox" value="no" class="nl">No<br></label>
+      <label>Please try to explain the reason in words: <br>
+        <textarea></textarea>
+      </label><br>
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+
+</html>
