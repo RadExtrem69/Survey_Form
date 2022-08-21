@@ -4,13 +4,16 @@
   <head>
     <title>Survey</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
   </head>
   <body>
     <h1 id="title">
       Feedback on the Indian Education system
     </h1>
     <p id="description">
-      <i>The Indian Education system is one of the worst rated educational systems of all time. But, how does it feel as a graduate/ student to view at the system? Please let us know.</i>
+      The Indian Education system is one of the worst rated educational systems of all time. But, how does it feel as a graduate/ student to view at the system? Please let us know.
     </p>
     <form id="survey-form">
       <label id="name-label">What be your name? <input id="name" required type="text" placeholder="e.g. John Doe"></label>
@@ -25,10 +28,10 @@
         </select>
       </label>
       <label>Do you like the educational system?<br>
-        <input type="radio" name="edu" class = "nl" value="1">Yes, absolutely.<br>
-        <input type="radio" name="edu" class = "nl" value="2">No, not at all.<br>
+        <input type="radio" name="edu" class = "nl" value="yes">Yes, absolutely.<br>
+        <input type="radio" name="edu" class = "nl" value="no">No, not at all.<br>
       </label>
-      <label>Are you/would you stay in India after graduation<br><input type="checkbox" value="stay" class = "nl">Yes<br><input type="checkbox" value="leave" class="nl">No</label><br>
+      <label>Are you/would you stay in India after graduation<br><input type="checkbox" name= "edu2" value="stay" class = "nl">Yes<br><input type="checkbox" name= "edu2" value="leave" class="nl">No</label><br>
       <label>Do you expect the Indian education system to change?<br><input type="checkbox" value="yes" class="nl">Yes<br><input type="checkbox" value="no" class="nl">No<br></label>
       <label>Please try to explain the reason in words: <br>
         <textarea></textarea>
